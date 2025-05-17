@@ -1,5 +1,5 @@
 <?php
-$con = @mysqli_connect('localhost', '**********', '**********', '**********');
+$con = @mysqli_connect('localhost', 'if0_38228128_miss404', 'Miss404', 'if0_38228128_miss404');
 
 if (!$con) {
     echo "Error: " . mysqli_connect_error();
