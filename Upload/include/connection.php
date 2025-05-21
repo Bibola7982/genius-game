@@ -1,5 +1,5 @@
 <?php
-$con = @mysqli_connect('localhost', 'if0_38228128_miss404', 'Miss404', 'if0_38228128_miss404');
+$con = @mysqli_connect('fdb1028.awardspace.net', '4636666_miss', 'Miss404', '4636666_miss');
 if (!$con) {
     echo "Error: " . mysqli_connect_error();
 	exit();
